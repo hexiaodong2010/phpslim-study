@@ -1,0 +1,21 @@
+{
+  "name": "hexiaodong/phpslim-study",
+  "description": "study slim",
+  "type": "composer",
+  "require": {
+    "slim/slim": "^3.8",
+    "curl/curl": "^1.8",
+    "slim/twig-view": "^2.2"
+  },
+  "authors": [
+    {
+      "name": "hexiaodong",
+      "email": "hexd@baicaiqiche.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
